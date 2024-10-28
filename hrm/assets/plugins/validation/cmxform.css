@@ -1,0 +1,24 @@
+/**********************************
+
+Name: cmxform Styles
+
+***********************************/
+
+form.cmxform legend {
+	padding-left: 0;
+}
+
+form.cmxform label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: #900;
+  text-decoration: none;
+  
+}
+div.error { display: none; }
+
+input:focus { border: 1px dotted black; }
+input.error {  }
+form.cmxform  label.error:hover ,  label.error:hover {
+  color: red;
+  position: relative;
+}

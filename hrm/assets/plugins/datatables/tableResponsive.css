@@ -1,0 +1,65 @@
+/*
+    Generic Styling, for Desktops/Laptops
+    */
+    #table_responsive {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    /* Zebra striping */
+    #table_responsive tr:nth-of-type(odd) {
+        background: #eee;
+    }
+    #table_responsive th {
+        background: #1470ba;
+        color: white;
+        font-weight: bold;
+    }
+    #table_responsive th a {
+        color: white;
+    }
+    #table_responsive td, th {
+        padding: 6px;
+        border: 1px solid #ccc;
+        text-align: left;
+    }
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    /* Force table to not be like tables anymore */
+    #table_responsive,#table_responsive thead,#table_responsive tbody,#table_responsive th,#table_responsive td,#table_responsive tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #table_responsive thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    #table_responsive tr { border: 1px solid #ccc; }
+
+    #table_responsive td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    #table_responsive td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    /*
+    Label the data
+    */
+} 

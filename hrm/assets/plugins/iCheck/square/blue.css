@@ -1,0 +1,91 @@
+/* iCheck plugin Square skin, blue
+----------------------------------- */
+.icheckbox_square-blue,
+.iradio_square-blue {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url(blue.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_square-blue {
+    background-position: 0 0;
+}
+    .icheckbox_square-blue.hover {
+        background-position: -24px 0;
+    }
+    .icheckbox_square-blue.checked {
+        background-position: -48px 0;
+    }
+    .icheckbox_square-blue.disabled {
+        background-position: -72px 0;
+        cursor: default;
+    }
+    .icheckbox_square-blue.checked.disabled {
+        background-position: -96px 0;
+    }
+
+.iradio_square-blue {
+    background-position: -120px 0;
+}
+    .iradio_square-blue.hover {
+        background-position: -144px 0;
+    }
+    .iradio_square-blue.checked {
+        background-position: -168px 0;
+    }
+    .iradio_square-blue.disabled {
+        background-position: -192px 0;
+        cursor: default;
+    }
+    .iradio_square-blue.checked.disabled {
+        background-position: -216px 0;
+    }
+
+/* Retina support */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (-moz-min-device-pixel-ratio: 1.5),
+       only screen and (-o-min-device-pixel-ratio: 3/2),
+       only screen and (min-device-pixel-ratio: 1.5) {
+    .icheckbox_square-blue,
+    .iradio_square-blue {
+        background-image: url(blue@2x.png);
+        -webkit-background-size: 240px 24px;
+        background-size: 240px 24px;
+    }
+}
+.left-blue{background-color:#d7d7d7; min-height:460px; background-image:url(../images/lo-bg.png);  padding-bottom:30px;}
+@media (min-width: 1024px) and (max-width: 1800px){
+  .left-blue{background-color:#d7d7d7; background-image:url(../images/lo-bg.png); height:300px;}
+}
+@media (min-width: 1800px) and (max-width: 2000px){
+  .left-blue{background-color:#d7d7d7; background-image:url(../images/lo-bg.png); height:602px;}
+}
+.right-gry{background-color:#d7d7d7; padding:26px; min-height:550px;}
+@media (min-width: 1024px) and (max-width: 1800px){
+  .right-gry{background-color:#d7d7d7; padding-top:30px; min-height:460px;}
+}
+@media (min-width: 320px) and (max-width: 768px){
+  .right-gry{background-color:#d7d7d7; min-height:200px;}
+}
+.sig-bg{border:solid 10px #d7d7d7; margin-bottom:15px;}
+.mid-lt{padding-top:5%; padding-left:5%;}
+.bg-whi{font-weight:100; border-bottom:solid 1px #CCC; font-size:20px; line-height:normal; color:#585858;}
+.lipt{color:#09F; font-size:40px; font-weight:100;}
+.au-name{font-style:italic; text-align:right;}
+.rt-img{padding-top:5%; text-align:right;}
+.btm-mid{text-align:center; background-color:#0081d7; font-weight:100; color:#FFF; padding:15px; font-size:16px;}
+.coro-main{padding-left:0px; padding-right:0px;}
+.coro-lt{padding-left:0px; padding-right:0px;}
+.login-logo, .register-logo {
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 2px;
+    text-align: center;
+}
